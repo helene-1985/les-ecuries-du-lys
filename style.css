@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Dancing Script', cursive;
+  
+}
+video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+h1 {
+  font-size: 6rem;
+  position: absolute;
+  top: 8rem;
+  left: 3rem;
+  font-weight: bold;
+  color: #785964;
+  text-shadow: 1px 2px 6px #eee;
+  text-align: center;
+
+}
+
+
+.button {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1.5rem 2.5rem;
+  background: #B796AC;
+  border-radius: 20px;
+  font-size: 2rem;
+  box-shadow: 0 0 6px #eee;
+  cursor: pointer;
+  display: flex;
+  transition: 0.7s ease;
+}
+.text {
+  margin: 0;
+  font-weight: bold;
+  transform: translateX(14px);
+  transition: 0.4s ease;
+  font-family: 'Amatic SC', cursive;
+  color: wheat;
+}
+.fas {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: 0.4s ease;
+}
+
+.button:hover .fas {
+  opacity: 2;
+  transform: translateX(10px);
+}
+.button:hover .text {
+  transform: translateX(-10px);
+}
+.button:hover {
+  filter: brightness(140%);
+}
+.button:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+#fleche {
+
+  color: #785964;
+
+}
+
